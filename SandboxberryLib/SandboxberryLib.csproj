@@ -77,10 +77,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="D:\Codeulike\Code\SandboxberrySol\SandboxberryLib\SalesforceWsdl\partner.wsdl">
+    <WebReferenceUrl Include="C:\Users\User\source\repos\SandboxBerry\SandboxberryLib\SalesforceWsdl\partner.wsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\SalesforcePartnerApi\</RelPath>
-      <UpdateFromURL>D:\Codeulike\Code\SandboxberrySol\SandboxberryLib\SalesforceWsdl\partner.wsdl</UpdateFromURL>
+      <UpdateFromURL>C:\Users\User\source\repos\SandboxBerry\SandboxberryLib\SalesforceWsdl\partner.wsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -99,6 +99,12 @@
     <EmbeddedResource Include="Resources\SbbInstructionSetSchema.xsd">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Web References\SalesforcePartnerApi\ChangeOwnPasswordResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SalesforcePartnerApi\DeleteByExampleResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
     <None Include="Web References\SalesforcePartnerApi\DeleteResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
@@ -123,7 +129,7 @@
     <None Include="Web References\SalesforcePartnerApi\DescribeDataCategoryGroupStructureResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\SalesforcePartnerApi\DescribeFlexiPageResult.datasource">
+    <None Include="Web References\SalesforcePartnerApi\DescribeDataCategoryMappingResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\SalesforcePartnerApi\DescribeGlobalResult.datasource">
@@ -135,7 +141,16 @@
     <None Include="Web References\SalesforcePartnerApi\DescribeLayoutResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
+    <None Include="Web References\SalesforcePartnerApi\DescribeNounResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SalesforcePartnerApi\DescribePathAssistant.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
     <None Include="Web References\SalesforcePartnerApi\DescribeQuickActionResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SalesforcePartnerApi\DescribeSearchableEntityResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\SalesforcePartnerApi\DescribeSearchLayoutResult.datasource">
@@ -162,10 +177,16 @@
     <None Include="Web References\SalesforcePartnerApi\DescribeThemeItem.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
+    <None Include="Web References\SalesforcePartnerApi\DescribeVisualForceResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
     <None Include="Web References\SalesforcePartnerApi\EmptyRecycleBinResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\SalesforcePartnerApi\ExecuteListViewResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SalesforcePartnerApi\FindDuplicatesResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\SalesforcePartnerApi\GetDeletedResult.datasource">
@@ -211,6 +232,12 @@
     <None Include="Web References\SalesforcePartnerApi\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SalesforcePartnerApi\RenderEmailTemplateResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SalesforcePartnerApi\RenderStoredEmailTemplateResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\SalesforcePartnerApi\ResetPasswordResult.datasource">
       <DependentUpon>Reference.map</DependentUpon>

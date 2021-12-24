@@ -166,9 +166,9 @@ namespace Sandboxberry
         private SbbCredentials GetSourceCredentials()
         {
             var sourceCred = new SbbCredentials();
-            sourceCred.SalesforceUrl = "https://test.salesforce.com/services/Soap/u/32.0";
+            sourceCred.SalesforceUrl = "https://test.salesforce.com/services/Soap/u/53.0";
             if (uxSourceUrl.SelectedItem != null && uxSourceUrl.SelectedItem.ToString().StartsWith("Live"))
-                sourceCred.SalesforceUrl = "https://login.salesforce.com/services/Soap/u/32.0";
+                sourceCred.SalesforceUrl = "https://login.salesforce.com/services/Soap/u/53.0";
             sourceCred.SalesforceLogin = uxSourceUsername.Text;
             sourceCred.SalesforcePassword = uxSourcePassword.Text;
             return sourceCred;
@@ -177,7 +177,7 @@ namespace Sandboxberry
         private SbbCredentials GetTargetCredentials()
         {
             var targetCred = new SbbCredentials();
-            targetCred.SalesforceUrl = "https://test.salesforce.com/services/Soap/u/32.0";
+            targetCred.SalesforceUrl = "https://test.salesforce.com/services/Soap/u/53.0";
             targetCred.SalesforceLogin = uxTargetUsername.Text;
             targetCred.SalesforcePassword = uxTargetPassword.Text;
             return targetCred;

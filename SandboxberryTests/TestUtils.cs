@@ -34,7 +34,7 @@ namespace SandboxberryTests
         public static SbbCredentials MakeDummyCredentials()
         {
             var res = new SbbCredentials();
-            res.SalesforceUrl = "https://test.salesforce.com/services/Soap/u/32.0";
+            res.SalesforceUrl = "https://test.salesforce.com/services/Soap/u/53.0";
             res.SalesforceLogin = "madeup@example.com.sandbox";
             res.SalesforcePassword = "passwordAndSecurityToken";
             return res;
